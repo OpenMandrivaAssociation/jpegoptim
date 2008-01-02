@@ -10,6 +10,7 @@ Source0:	%{name}-%{version}.tar.bz2
 License:	GPL
 Group:		Graphics
 Url:		http://www.cc.jyu.fi/~tjko/projects.html
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	libjpeg-devel
 
 %description
