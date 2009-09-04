@@ -1,6 +1,6 @@
 %define name	jpegoptim
 %define version	1.2.2
-%define release	 %mkrel 4
+%define release	 %mkrel 5
 
 Name:		%{name}
 Version:	%{version}
