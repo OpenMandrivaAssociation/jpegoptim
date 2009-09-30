@@ -1,12 +1,12 @@
 %define name	jpegoptim
-%define version	1.2.2
-%define release	 %mkrel 5
+%define version	1.2.3
+%define release	 %mkrel 1
 
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
 Summary:	Utility to optimize jpeg files
-Source0:	%{name}-%{version}.tar.bz2
+Source0:	http://www.kokkonen.net/tjko/src/%{name}-%{version}.tar.gz
 License:	GPL
 Group:		Graphics
 Url:		http://www.cc.jyu.fi/~tjko/projects.html
