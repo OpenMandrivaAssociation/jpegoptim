@@ -1,7 +1,7 @@
 Summary:	Utility to optimize JPEG image files
 Name:		jpegoptim
 Version:	1.3.0
-Release:	1
+Release:	2
 License:	GPLv2+
 Group:		Graphics
 Url:		http://www.kokkonen.net/tjko/projects.html
