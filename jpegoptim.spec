@@ -1,16 +1,17 @@
 Summary:	Utility to optimize JPEG image files
 Name:		jpegoptim
-Version:	1.3.0
-Release:	2
+Version:	1.4.3
+Release:	1
 License:	GPLv2+
 Group:		Graphics
 Url:		http://www.kokkonen.net/tjko/projects.html
 Source0:	http://www.kokkonen.net/tjko/src/%{name}-%{version}.tar.gz
+
 BuildRequires:	jpeg-devel
 
 %description
-Provides lossless optimization (based on optimizing the Huffman tables)
-and "lossy" optimization based on setting the maximum quality factor.
+Provides lossless optimization (based on optimizing the Huffman tables) and
+"lossy" optimization based on setting the maximum quality factor.
 
 %files
 %doc COPYRIGHT README
@@ -27,6 +28,4 @@ and "lossy" optimization based on setting the maximum quality factor.
 %make
 
 %install
-%makeinstall
-
-
+%makeinstall_std
