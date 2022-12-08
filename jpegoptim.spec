@@ -1,6 +1,6 @@
 Summary:	Utility to optimize JPEG image files
 Name:		jpegoptim
-Version:	1.4.6
+Version:	1.5.0
 Release:	1
 License:	GPLv2+
 Group:		Graphics
