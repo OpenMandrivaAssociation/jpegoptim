@@ -4,7 +4,7 @@ Version:	1.5.5
 Release:	1
 License:	GPLv2+
 Group:		Graphics
-Url:		http://www.kokkonen.net/tjko/projects.html
+Url:		https://www.kokkonen.net/tjko/projects.html
 Source0:	http://www.kokkonen.net/tjko/src/%{name}-%{version}.tar.gz
 
 BuildRequires:	jpeg-devel
