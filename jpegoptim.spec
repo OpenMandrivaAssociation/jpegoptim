@@ -7,6 +7,7 @@ Group:		Graphics
 Url:		https://www.kokkonen.net/tjko/projects.html
 Source0:	https://github.com/tjko/jpegoptim/releases/download/v%{version}/jpegoptim-%{version}.tar.gz
 
+BuildRequires:	libtool-base
 BuildRequires:	pkgconfig(libjpeg)
 BuildRequires:	autoconf
 BuildRequires:	automake
